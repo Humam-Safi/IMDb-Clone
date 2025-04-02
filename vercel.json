@@ -2,31 +2,31 @@
   "routes": [
     {
       "src": "/",
-      "dest": "/"
+      "dest": "/index.html"
     },
     {
       "src": "/top",
-      "dest": "/"
+      "dest": "/top.html"
     },
     {
-      "src": "/trend/:id",
-      "dest": "/"
+      "src": "/trend/(.*)",
+      "dest": "/trend/[id].html"
     },
     {
-      "src": "/top/:id",
-      "dest": "/"
+      "src": "/top/(.*)",
+      "dest": "/top/[id].html"
     },
     {
       "src": "/about",
-      "dest": "/"
+      "dest": "/about.html"
     },
     {
       "src": "/search",
-      "dest": "/"
+      "dest": "/search.html"
     },
     {
-      "src": "/search/:id",
-      "dest": "/"
+      "src": "/search/(.*)",
+      "dest": "/search/[id].html"
     }
   ]
 }
