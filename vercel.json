@@ -1,8 +1,32 @@
 {
-  "rewrites": [
-    { "source": "/top", "destination": "/top.html" },
-    { "source": "/trend/:id", "destination": "/trend/[id].html" },
-    { "source": "/about", "destination": "/about.html" },
-    { "source": "/search/:id", "destination": "/search/[id].html" }
+  "routes": [
+    {
+      "src": "/",
+      "dest": "/"
+    },
+    {
+      "src": "/top",
+      "dest": "/"
+    },
+    {
+      "src": "/trend/:id",
+      "dest": "/"
+    },
+    {
+      "src": "/top/:id",
+      "dest": "/"
+    },
+    {
+      "src": "/about",
+      "dest": "/"
+    },
+    {
+      "src": "/search",
+      "dest": "/"
+    },
+    {
+      "src": "/search/:id",
+      "dest": "/"
+    }
   ]
 }
