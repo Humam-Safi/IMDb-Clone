@@ -1,0 +1,28 @@
+.container {
+  padding: 20px 70px;
+}
+a {
+  text-decoration: none !important;
+}
+.films {
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  transition: 0.2s;
+  overflow: hidden;
+  cursor: pointer;
+  margin: 10px;
+  /* transition: s; */
+}
+.films:hover {
+  box-shadow: rgba(255, 255, 255, 0.5) 0px 4px 8px;
+  animation: moveToTop 0.3s ease-in-out forwards;
+}
+
+@keyframes moveToTop {
+  from {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(-15px); 
+  }
+}

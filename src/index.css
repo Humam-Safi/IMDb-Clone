@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.dark{
+  --primary-color:229 231 235;
+  --secondary-color:0 0 0 ;
+  --bg-color:0 0 0 ;
+  --bar-color:245 158 11 ;
+}
+.light{
+  --primary-color:0 0 0;
+  --secondary-color:255 255 255;
+  --bg-color: 255 255 255;
+  --bar-color : 245 158 11  ;
+}
