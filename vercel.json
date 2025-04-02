@@ -1,8 +1,32 @@
 {
   "routes": [
     {
-      "src": "/(.*)",
-      "dest": "/index.html"
+      "src": "/",
+      "dest": "/"
+    },
+    {
+      "src": "/top",
+      "dest": "/"
+    },
+    {
+      "src": "/trend/:id",
+      "dest": "/"
+    },
+    {
+      "src": "/top/:id",
+      "dest": "/"
+    },
+    {
+      "src": "/about",
+      "dest": "/"
+    },
+    {
+      "src": "/search",
+      "dest": "/"
+    },
+    {
+      "src": "/search/:id",
+      "dest": "/"
     }
   ]
 }
